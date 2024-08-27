@@ -1,0 +1,9 @@
+{% extends 'abouts/base.html' %}
+{% load static %}
+
+{% block title %}Главная{% endblock %}
+{% block content %}
+<h2 class="mt-4">Добро пожаловать на сайт моих рассказов о путешествиях</h2>
+<img src="{% static 'images/my_photo.jpg' %}" alt="Моя фотография" class="float-start me-3 mb-3 img-fluid" style="max-width: 400px;">
+<p>Я люблю путешествовать и делиться своими впечатлениями. На этом сайте вы найдете мои истории о самых разных местах, которые я посетил. Каждое путешествие приносит что-то новое и интересное, и я рад поделиться этим с вами!</p>
+{% endblock %}

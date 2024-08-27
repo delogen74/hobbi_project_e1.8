@@ -1,0 +1,38 @@
+{% extends 'abouts/base.html' %}
+{% load static %}
+
+{% block title %}Путешествия{% endblock %}
+{% block heading %}Мои путешествия{% endblock %}
+
+{% block content %}
+<div class="row mt-4">
+    <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100">
+            <img class="card-img-top" src="{% static 'images/paris.jpg' %}" alt="Париж">
+            <div class="card-body">
+                <h5 class="card-title">Поездка в Париж</h5>
+                <p class="card-text">Париж - город романтики и искусства. Я провел здесь несколько дней, наслаждаясь архитектурой, музеями и французской кухней.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100">
+            <img class="card-img-top" src="{% static 'images/dubai.jpg' %}" alt="Дубай">
+            <div class="card-body">
+                <h5 class="card-title">Поездка в Дубай</h5>
+                <p class="card-text">Дубай - город будущего. Я был поражен высотой Бурдж Халифа и другими современными зданиями и технологиями.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100">
+            <img class="card-img-top" src="{% static 'images/cologne.jpg' %}" alt="Кельн">
+            <div class="card-body">
+                <h5 class="card-title">Путешествие в Кёльн</h5>
+                <p class="card-text">Маршрут Кёльн - Париж - Тур - Милан позволил мне увидеть несколько городов и стран. Это был незабываемый опыт.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
